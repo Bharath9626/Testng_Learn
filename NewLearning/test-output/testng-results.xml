@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-16T12:25:46 IST" name="Login suite" finished-at="2022-09-16T12:26:29 IST" duration-ms="42208">
+  <suite started-at="2022-09-16T13:57:00 IST" name="Default suite" finished-at="2022-09-16T13:57:42 IST" duration-ms="42132">
     <groups>
     </groups>
-    <test started-at="2022-09-16T12:25:46 IST" name="both correct" finished-at="2022-09-16T12:25:58 IST" duration-ms="11995">
-      <class name="demologin.BothCorrect">
-        <test-method signature="loginwithbothcorrect(java.lang.String,java.lang.String)[pri:0, instance:demologin.BothCorrect@76508ed1]" started-at="2022-09-16T12:25:46 IST" name="loginwithbothcorrect" finished-at="2022-09-16T12:25:58 IST" duration-ms="11928" status="PASS">
+    <test started-at="2022-09-16T13:57:00 IST" name="Default test" finished-at="2022-09-16T13:57:42 IST" duration-ms="42132">
+      <class name="demologin.Login">
+        <test-method signature="loginwithbothcorrect(java.lang.String,java.lang.String)[pri:0, instance:demologin.Login@647e447]" started-at="2022-09-16T13:57:00 IST" name="loginwithbothcorrect" data-provider="LoginData" finished-at="2022-09-16T13:57:12 IST" duration-ms="12160" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,35 +23,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithbothcorrect -->
-      </class> <!-- demologin.BothCorrect -->
-    </test> <!-- both correct -->
-    <test started-at="2022-09-16T12:25:58 IST" name="not correct" finished-at="2022-09-16T12:26:09 IST" duration-ms="10157">
-      <class name="demologin.BothNotcorrect">
-        <test-method signature="loginbothnotcorrect(java.lang.String,java.lang.String)[pri:0, instance:demologin.BothNotcorrect@44ebcd03]" started-at="2022-09-16T12:25:58 IST" name="loginbothnotcorrect" finished-at="2022-09-16T12:26:09 IST" duration-ms="10149" status="PASS">
+        <test-method signature="loginwithbothcorrect(java.lang.String,java.lang.String)[pri:0, instance:demologin.Login@647e447]" started-at="2022-09-16T13:57:12 IST" name="loginwithbothcorrect" data-provider="LoginData" finished-at="2022-09-16T13:57:23 IST" duration-ms="10947" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[dummy]]>
+                <![CDATA[Admin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[admik]]>
+                <![CDATA[admmh]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginbothnotcorrect -->
-      </class> <!-- demologin.BothNotcorrect -->
-    </test> <!-- not correct -->
-    <test started-at="2022-09-16T12:26:09 IST" name="correct passworrd" finished-at="2022-09-16T12:26:19 IST" duration-ms="10599">
-      <class name="demologin.CorrectPassword">
-        <test-method signature="loginwithcorrectpassword(java.lang.String,java.lang.String)[pri:0, instance:demologin.CorrectPassword@359f7cdf]" started-at="2022-09-16T12:26:09 IST" name="loginwithcorrectpassword" finished-at="2022-09-16T12:26:19 IST" duration-ms="10595" status="PASS">
+        </test-method> <!-- loginwithbothcorrect -->
+        <test-method signature="loginwithbothcorrect(java.lang.String,java.lang.String)[pri:0, instance:demologin.Login@647e447]" started-at="2022-09-16T13:57:23 IST" name="loginwithbothcorrect" data-provider="LoginData" finished-at="2022-09-16T13:57:33 IST" duration-ms="9534" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[dummy]]>
+                <![CDATA[Adin]]>
               </value>
             </param>
             <param index="1">
@@ -62,28 +54,24 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginwithcorrectpassword -->
-      </class> <!-- demologin.CorrectPassword -->
-    </test> <!-- correct passworrd -->
-    <test started-at="2022-09-16T12:26:19 IST" name="Correct username" finished-at="2022-09-16T12:26:29 IST" duration-ms="9381">
-      <class name="demologin.CorrectUserName">
-        <test-method signature="loginwithcorrectusername(java.lang.String,java.lang.String)[pri:0, instance:demologin.CorrectUserName@4fb61f4a]" started-at="2022-09-16T12:26:19 IST" name="loginwithcorrectusername" finished-at="2022-09-16T12:26:29 IST" duration-ms="9377" status="PASS">
+        </test-method> <!-- loginwithbothcorrect -->
+        <test-method signature="loginwithbothcorrect(java.lang.String,java.lang.String)[pri:0, instance:demologin.Login@647e447]" started-at="2022-09-16T13:57:33 IST" name="loginwithbothcorrect" data-provider="LoginData" finished-at="2022-09-16T13:57:42 IST" duration-ms="9176" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Admin]]>
+                <![CDATA[asdfg]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[dummy]]>
+                <![CDATA[yhhhjk]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginwithcorrectusername -->
-      </class> <!-- demologin.CorrectUserName -->
-    </test> <!-- Correct username -->
-  </suite> <!-- Login suite -->
+        </test-method> <!-- loginwithbothcorrect -->
+      </class> <!-- demologin.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

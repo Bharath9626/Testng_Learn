@@ -87,5 +87,6 @@
 	<classpathentry kind="lib" path="D:/Seleniumjava/jar/lib/opentelemetry-semconv-1.16.0-alpha.jar"/>
 	<classpathentry kind="lib" path="D:/Seleniumjava/jar/lib/reactive-streams-1.0.4.jar"/>
 	<classpathentry kind="lib" path="D:/Seleniumjava/jar/lib/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="D:/Seleniumjava/jxl-2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

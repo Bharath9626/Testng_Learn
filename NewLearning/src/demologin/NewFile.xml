@@ -1,32 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Login suite">
-	<test name="both correct">
-		<parameter name="username" value="Admin"></parameter>
-		<parameter name="password" value="admin123"></parameter>
+	<test name="Login">
 		<classes>
-			<class name="demologin.BothCorrect" />
+			<class name="demologin.Login" />
 		</classes>
 	</test>
-	<test name="not correct">
-		<parameter name="username" value="dummy"></parameter>
-		<parameter name="password" value="admik"></parameter>
-		<classes>
-			<class name="demologin.BothNotcorrect" />
-		</classes>
-	</test>
-	<test name="correct passworrd">
-		<parameter name="username" value="dummy"></parameter>
-		<parameter name="password" value="admin123"></parameter>
-		<classes>
-			<class name="demologin.CorrectPassword" />
-		</classes>
-	</test>
-	<test name="Correct username">
-		<parameter name="username" value="Admin"></parameter>
-		<parameter name="password" value="dummy"></parameter>
-		<classes>
-			<class name="demologin.CorrectUserName" />
-		</classes>
-	</test>
+	
 </suite>

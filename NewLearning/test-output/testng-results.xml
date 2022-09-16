@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-16T12:25:46 IST" name="Login suite" finished-at="2022-09-16T12:26:29 IST" duration-ms="42208">
+    <groups>
+    </groups>
+    <test started-at="2022-09-16T12:25:46 IST" name="both correct" finished-at="2022-09-16T12:25:58 IST" duration-ms="11995">
+      <class name="demologin.BothCorrect">
+        <test-method signature="loginwithbothcorrect(java.lang.String,java.lang.String)[pri:0, instance:demologin.BothCorrect@76508ed1]" started-at="2022-09-16T12:25:46 IST" name="loginwithbothcorrect" finished-at="2022-09-16T12:25:58 IST" duration-ms="11928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithbothcorrect -->
+      </class> <!-- demologin.BothCorrect -->
+    </test> <!-- both correct -->
+    <test started-at="2022-09-16T12:25:58 IST" name="not correct" finished-at="2022-09-16T12:26:09 IST" duration-ms="10157">
+      <class name="demologin.BothNotcorrect">
+        <test-method signature="loginbothnotcorrect(java.lang.String,java.lang.String)[pri:0, instance:demologin.BothNotcorrect@44ebcd03]" started-at="2022-09-16T12:25:58 IST" name="loginbothnotcorrect" finished-at="2022-09-16T12:26:09 IST" duration-ms="10149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admik]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbothnotcorrect -->
+      </class> <!-- demologin.BothNotcorrect -->
+    </test> <!-- not correct -->
+    <test started-at="2022-09-16T12:26:09 IST" name="correct passworrd" finished-at="2022-09-16T12:26:19 IST" duration-ms="10599">
+      <class name="demologin.CorrectPassword">
+        <test-method signature="loginwithcorrectpassword(java.lang.String,java.lang.String)[pri:0, instance:demologin.CorrectPassword@359f7cdf]" started-at="2022-09-16T12:26:09 IST" name="loginwithcorrectpassword" finished-at="2022-09-16T12:26:19 IST" duration-ms="10595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithcorrectpassword -->
+      </class> <!-- demologin.CorrectPassword -->
+    </test> <!-- correct passworrd -->
+    <test started-at="2022-09-16T12:26:19 IST" name="Correct username" finished-at="2022-09-16T12:26:29 IST" duration-ms="9381">
+      <class name="demologin.CorrectUserName">
+        <test-method signature="loginwithcorrectusername(java.lang.String,java.lang.String)[pri:0, instance:demologin.CorrectUserName@4fb61f4a]" started-at="2022-09-16T12:26:19 IST" name="loginwithcorrectusername" finished-at="2022-09-16T12:26:29 IST" duration-ms="9377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithcorrectusername -->
+      </class> <!-- demologin.CorrectUserName -->
+    </test> <!-- Correct username -->
+  </suite> <!-- Login suite -->
+</testng-results>
